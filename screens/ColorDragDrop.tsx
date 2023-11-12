@@ -124,7 +124,398 @@ const ColorDragDrop = () => {
 					}}
 				/>
 				<View style={styles.palette}>
-
+				<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
+				<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
+				<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
+				<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
+				<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
+				<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
+				<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
+				<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
+				<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
+				<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Red"
+							weights={{ red: 1, green: 0, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Green"
+							weights={{ red: 0, green: 1, blue: 0 }}
+						/>
+						<ColorBlock
+							name="Blue"
+							weights={{ red: 0, green: 0, blue: 1 }}
+						/>
+					</View>
+					<View style={styles.paletteRow}>
+						<ColorBlock
+							name="Cyan"
+							weights={{ red: 0, green: 1, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Magenta"
+							weights={{ red: 1, green: 0, blue: 1 }}
+						/>
+						<ColorBlock
+							name="Yellow"
+							weights={{ red: 1, green: 1, blue: 0 }}
+						/>
+					</View>
 					<View style={styles.paletteRow}>
 						<ColorBlock
 							name="Red"

@@ -68,6 +68,7 @@ const ColorDragDrop = () => {
 				style={styles.container}
 			>
 				<DraxView
+					animateSnapback
 					style={[
 						styles.centeredContent,
 						styles.receivingZone,
@@ -120,7 +121,6 @@ const ColorDragDrop = () => {
 							green: receivedWeights.green + weights.green,
 							blue: receivedWeights.blue + weights.blue,
 						});
-						return DraxSnapbackTargetPreset.None;
 					}}
 				/>
 				<View style={styles.palette}>
@@ -241,7 +241,6 @@ const ColorDragDrop = () => {
 							green: stagedWeights.green + weights.green,
 							blue: stagedWeights.blue + weights.blue,
 						});
-						return DraxSnapbackTargetPreset.None;
 					}}
 					onDragDrop={() => {
 						setStagedText([]);

@@ -1,7 +1,7 @@
 {
   "name": "expo-drax-example",
   "version": "1.0.0",
-  "main": "expo-router/entry",
+  "main": "App.js",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",

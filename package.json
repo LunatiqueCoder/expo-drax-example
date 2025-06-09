@@ -1,7 +1,7 @@
 {
   "name": "expo-drax-example",
   "version": "1.0.0",
-  "main": "App.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
+    "@react-navigation/bottom-tabs": "^7.3.14",
+    "@react-navigation/native": "^7.1.10",
     "expo": "53.0.11",
     "expo-linking": "~7.1.5",
-    "expo-router": "~5.0.7",
     "expo-splash-screen": "~0.30.9",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",

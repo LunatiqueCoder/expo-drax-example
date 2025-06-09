@@ -2,6 +2,7 @@
   "expo": {
     "name": "expo-drax-example",
     "slug": "expo-drax-example",
+    "scheme": "expo-drax-example",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,22 +12,21 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.ovidiucristescuedusoft.expodraxexample"
+      "bundleIdentifier": "com.nuclearpasta.expodraxexample"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.ovidiucristescuedusoft.expodraxexample"
+      "package": "com.nuclearpasta.expodraxexample"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": ["expo-router"]
   }
 }
